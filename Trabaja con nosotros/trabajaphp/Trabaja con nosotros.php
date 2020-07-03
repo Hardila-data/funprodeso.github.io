@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+   <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="icon" href="../Imagenes/logo.ico">
+
+    <title>FUNPRODESO</title>
+
+ </head>
+ <body>
+  <div class="container">
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-sm">
+           <a class="navbar-brand" href="index.html"><img src="../Imagenes/logotipo.png" class="img-fluid" alt="Responsive image" width="401" height="272"><a/>
+          </div>
+          <div class="col-sm ">
+            <div class=" row d-flex justify-content-end align-items-end mt-2">
+              <p>Carrera 3 No.5-77 apto 1 Barrio Tranquilidad, Jagua del Pilar La Guajira, Colombia | Tel:<a href="tel:+573014709529">+(57) 3014709529 | <a href="tel:+573013667861">+(57) 3013667861</p>   
+            </div>
+             <div class="row  justify-content-end ">
+              <a href=" https://www.instagram.com/aclagoin/" target="blank"><img src="../Imagenes/facebook1.svg" width="62px" height="62px"><a/>
+              <a href=" https://www.instagram.com/aclagoin/" target="blank"><img src="../Imagenes/Instagram.svg" width="62px" height="62px"><a/>
+               <!--<img src="Imagenes/if_whatsapp_115679.png" width="30px" height="30px">-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--nav-->
+      <nav class="navbar navbar-expand-lg navbar-dark mb-3 mt-3" style="background-color: #3CB371; padding: 0 0 0 0;">
+  <div class="container">
+   <a class="navbar-brand" href="index.html">
+    
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="container">
+    <ul class="navbar-nav mr-auto d-flex justify-content-end">
+      <li class="nav-item ml-2">
+        <a class="nav-link text-white hover_nav" href="../index.html" style="font-size: large;">Inicio</a>
+      </li>
+      <li class="nav-item ml-2">
+        <a class="nav-link text-white hover_nav" href="AcLago/Conocenos/Conocenos.html" style="font-size: large;">Conocenos</a>
+      </li>
+      <li class="nav-item ml-2">
+        <a class="nav-link text-white hover_nav" href="Contacto.html" style="font-size: large;">Contacto</a>
+      </li>
+      <li class="nav-item ml-2">
+        <a class="nav-link text-white hover_nav" href="AcLago/Contacto/Contacto.html" style="font-size: large;">Trabaja con Nosotros</a>
+      </li>
+      <li class="nav-item ml-2">
+        <a class="nav-link text-white hover_nav" href="AcLago/Contacto/Contacto.html" style="font-size: large;">Blog</a>
+      </li>
+    </ul>
+  </div>
+   <!--- 
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  -->
+  
+  </div>
+</div>
+</nav>
+
+<!--end nav-->
+<br>
+
+
+  
+  <!--<div class="container">
+    <img src="../Imagenes/FotoJet (6).jpg" class="img-fluid" alt="Responsive image">
+  </div>-->
+
+  </div>
+  <div class="container">
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title text-center">ASISTENTE EMAIL</h4>
+        <p class="card-text" align="justify">Para consultas o solicitudes relacionado con la fundación, por favor contáctenos a nuestra direccion de correo electronico:</p>
+        
+        <form action="proceso_guardar.php" method="POST" enctype="multipart/form-data">
+                
+          <div class="row">
+            <div class="col">
+              <label for="exampleFormControlText" >Nombre</label>
+              <input type="text" name="nombre" class="form-control" id="exampleFormControlText" placeholder="Nombre"  required>
+            </div>
+
+            <div class="col">
+              <label for="exampleFormControlText1">Apellido</label>
+              <input type="text" name="apellido" class="form-control" id="exampleFormControlText1" placeholder="Apellido" required>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <label for="exampleFormControlText2">Ciudad</label>
+              <input type="text" name="apellido" class="form-control" id="exampleFormControlText2" placeholder="Apellido" required>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <label for="exampleFormControlEmail">Correo Electronico</label>
+              <input type="email" name="email" class="form-control" id="exampleFormControlEmail"placeholder="Bienvenido@mail.com" required>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <label for="exampleFormControlNumber">Telefono</label>
+              <input type="number" name="cell" class="form-control" id="exampleFormControlNumber" placeholder="300888882" required>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col">   
+              <label for="exampleFormControlText3">Area de interes</label>
+              <input type="text" name="apellido" class="form-control" id="exampleFormControlText3" placeholder="Area de interes" required>
+            </div>
+
+            <div class="col">   
+              <label for="exampleFormControlText4">Profesion</label>
+              <input type="text" name="apellido" class="form-control" id="exampleFormControlText4" placeholder="Tecnico..ingeniero..tecnologo" required>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col">
+              <label for="exampleFormControlTextarea1">Mensaje</label>
+              <textarea class="form-control" name="mensaje" id="exampleFormControlTextarea1" rows="4"></textarea>
+            </div>
+          </div>
+          <br>
+
+
+          <div>
+            <input type="file" name="Imagen">
+    
+            <br>
+            
+          
+        <br>
+          <button type="submit" class="btn btn-primary" onclick="msg()" name="Aceptar">Enviar</button>
+
+
+        </form>
+        
+        
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+
+   
+    
+ <!-- </div>-->
+
+ <!--Footer-->
+ <footer >
+   <div class="container " style="background-color: #3CB371;">
+     <div class="row  d-flex align-items-stretch justify-content-center " style="background-color: #3CB371;">
+       <div class="col-sm-2 d-flex  justify-content-center">
+        <p class="nav-item nav-link text-white"  style="font-size: small;">Copyright&#169; 2018 FUNPRODESO Todos los derechos reservados</p> 
+       </div>
+       
+      
+       <div class="col-sm-2 d-flex align-items-start  justify-content-center  ">
+        <a class="nav-item nav-link text-white" href="index.html">Inicio</a>
+       </div>
+      
+       <div class="col-sm-2 d-flex  justify-content-center">
+         <a class="nav-item nav-link text-white" href="AcLago/Conocenos/Conocenos.html">Conocenos</a>
+       </div>
+      
+      
+
+       <div class="col-sm-2 d-flex  justify-content-center">
+        <div class="container">  
+         <a class="nav-item nav-link text-white d-flex justify-content-center  " href="AcLago/Contacto/Contacto.html">Contacto</a>
+         <div class="text-white">
+         <p style="font-size: small;" class="d-flex justify-content-center text-center">Carrera 3 No.5-77 apto 1 Barrio Tranquilidad, Jagua del Pilar La Guajira, Colombia.</p>
+         <!--<p style="font-size: small;" class="d-flex align-self-start  justify-content-center  " align="justify">
+          <img src="AcLago/image/if_cell_mobile_phone_communication_device_iphone_998254.png" width="15px" height="15px"><img src="AcLago/image/if_whatsapp_115679.png"  width="15px" height="15px">
+        </p>-->
+        <p class="text-center" style="font-size: small;">(+57)3014709529<br>(+57)3013667861 </p>
+         <p style="font-size: small;" class="d-flex align-self-start  justify-content-center  ">
+         <img src="AcLago/image/mail1.png" width="15px" height="15px">
+         contactenos@funprodeso.com</p>
+         </div>
+         </div>
+       </div>
+
+        <div class="col-sm-2 d-flex  justify-content-center mt-2">
+          <div class="row justify-content-end ">
+        <a href=" https://www.instagram.com/aclagoin/" target="blank"> <img class=" img-responsive mt-1 mb-2" src="../Imagenes/facebook1.svg" width="55pxpx" height="55px" alt="Card image cap"></a>
+        <a href="https://www.facebook.com/AcLagoIn/?ref=bookmarks" target="blank"> <img class="img-responsive  mb-2 mt-1" src="../Imagenes/Instagram.svg" width="55px" height="55px" alt="Card image cap"></a>
+          </div>  
+       </div>
+
+     </div>
+   </div>
+ </footer>
+ <!--End footer-->
+
+     <script type="text/javascript">
+
+       function msg()
+       {
+        var name= document.getElementsByName("nombre").value;
+        if () {
+        alert("Hol Mundo");
+      }
+        alert("Mensaje enviado");
+       }
+     </script>
+
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    </div>
+ </body>
+ </html>
